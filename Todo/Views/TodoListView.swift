@@ -17,7 +17,7 @@ struct TodoListView: View {
                 Color.toDoBG.ignoresSafeArea()
                 if !items.isEmpty {
                     List(items, id:\.self) { item in
-                        ItemListRow(item: item)
+                        ListItemRow(item: item)
                             .listRowBackground(Color(.toDoBG))
                             .listRowSeparatorTint(.toDoSecondary)
                     }

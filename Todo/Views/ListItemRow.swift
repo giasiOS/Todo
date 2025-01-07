@@ -1,5 +1,5 @@
 //
-//  ItemListRow.swift
+//  ListItemRow.swift
 //  Todo
 //
 //  Created by ali on 07/01/2025.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ItemListRow: View {
+struct ListItemRow: View {
     
     var item: String = ""
     
@@ -29,5 +29,5 @@ struct ItemListRow: View {
 }
 
 #Preview {
-    ItemListRow()
+    ListItemRow()
 }
