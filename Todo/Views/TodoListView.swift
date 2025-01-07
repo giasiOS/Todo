@@ -47,6 +47,7 @@ struct TodoListView: View {
             Image(systemName: "circle")
                 .font(.title2)
                 .foregroundStyle(.toDoRed)
+                .fontWeight(.thin)
             
             Text(item)
                 .font(.system(size: 18))
