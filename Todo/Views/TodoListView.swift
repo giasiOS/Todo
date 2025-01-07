@@ -14,5 +14,7 @@ struct TodoListView: View {
 }
 
 #Preview {
-    TodoListView()
+    NavigationStack {
+        TodoListView()
+    }
 }
