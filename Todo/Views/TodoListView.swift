@@ -41,22 +41,6 @@ struct TodoListView: View {
             .toolbarBackground(Color(.toDoBG), for: .navigationBar)
             .tint(.toDoPrimary)
     }
-    
-    func ItemListRow(item: String) -> some View {
-        HStack {
-            Image(systemName: "circle")
-                .font(.title2)
-                .foregroundStyle(.toDoRed)
-                .fontWeight(.thin)
-            
-            Text(item)
-                .font(.system(size: 18))
-                .fontWeight(.medium)
-                .foregroundStyle(.toDoPrimary)
-        }
-        
-        .padding()
-    }
 }
 
 #Preview {
